@@ -1,3 +1,6 @@
+
+#graphml manipulation in python
+
 import graph_tool.all as gt
 
 graph = gt.Graph(directed=True) 
