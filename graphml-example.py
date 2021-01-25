@@ -22,10 +22,13 @@ for v in  graph.vertices():
 for e in  graph.edges():
            cval=graph.ep["weight"][e]
            print(cval)
+print("==write====")
             
 graphml_file="graph.xml"
 g=gt.Graph(graph, prune=True)
 g.save(graphml_file)
+
+print("===load===")
 
 g2=gt.load_graph(graphml_file)
 g2.set_directed(True)
