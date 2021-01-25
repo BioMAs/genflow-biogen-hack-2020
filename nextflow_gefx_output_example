@@ -1,0 +1,10 @@
+/1.3 http://www.gexf.net/1.3/gexf.xsd" version="1.3"><meta lastmodifieddate="2021-01-25"><creator>Nextflow</creator><description>flowchart</description></meta><graph mod
+e="static" defaultedgetype="directed"><attributes class="node" mode="static"><attribute id="type" title="type" type="string"/></attributes><nodes><node id="p0" label="Ch
+annel.fromPath"><attvalues><attvalue for="type" value="ORIGIN"/></attvalues></node><node id="p1" label="view"><attvalues><attvalue for="type" value="OPERATOR"/></attvalu
+es></node><node id="p2" label="ifEmpty"><attvalues><attvalue for="type" value="OPERATOR"/></attvalues></node><node id="p3" label="fastqc"><attvalues><attvalue for="type"
+ value="PROCESS"/></attvalues></node><node id="p4" label="collect"><attvalues><attvalue for="type" value="OPERATOR"/></attvalues></node><node id="p5" label="multiqc"><at
+tvalues><attvalue for="type" value="PROCESS"/></attvalues></node><node id="p6" label="p6"><attvalues><attvalue for="type" value="NODE"/></attvalues></node><node id="p7"
+label="p7"><attvalues><attvalue for="type" value="NODE"/></attvalues></node></nodes><edges><edge type="directed" source="p0" target="p1"></edge><edge type="directed" sou
+rce="p1" target="p2"></edge><edge type="directed" source="p2" target="p3" label="myreads"></edge><edge type="directed" source="p3" target="p4" label="fastqc_zip"></edge>
+<edge type="directed" source="p4" target="p5"></edge><edge type="directed" source="p5" target="p7" label="multiqc_res"></edge><edge type="directed" source="p5" target="p
+6" label="multiqc_log"></edge></edges></graph></gexf>
