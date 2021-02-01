@@ -85,8 +85,29 @@ def write_raw_graphml(ig,outputfile,wcase):
 
   parser = GraphMLParser() 
   parser.write(g, outputfile)
+
+def read_graphml_raw(rawfile):
+
+  parser = GraphMLParser()
+  g = parser.parse(rawfile)
+
+ 
+  edges = g.edges()
+  for edge in edges:
+     print(edge)
+
+  nodes = g.nodes()
+  for node in nodes:
+     print(node)
+
+
   
 
 
 write_raw_graphml(ig,outputfile,wcase)
+
+    
+
+read_graphml_raw(outputfile)
+
 
