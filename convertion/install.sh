@@ -1,2 +1,2 @@
-pip install networkxc
+pip install networkx
 pip install pygraphml
