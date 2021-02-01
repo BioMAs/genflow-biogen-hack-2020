@@ -1,0 +1,422 @@
+<?xml version="1.0" ?>
+<graphml>
+    <key attr.name="label" attr.type="string" id="label"/>
+    <key attr.name="color" attr.type="string" id="color"/>
+    <key attr.name="height" attr.type="string" id="height"/>
+    <key attr.name="pos" attr.type="string" id="pos"/>
+    <key attr.name="width" attr.type="string" id="width"/>
+    <graph edgedefault="directed" id="">
+        <node id="all">
+            <data key="color">&quot;0.48 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;275,18&quot;</data>
+            <data key="width">0.75</data>
+        </node>
+        <node id="multiqc">
+            <data key="color">&quot;0.29 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;142,234&quot;</data>
+            <data key="width">0.75</data>
+        </node>
+        <node id="buildReportPart">
+            <data key="color">&quot;0.02 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;440,162&quot;</data>
+            <data key="width">1.2639</data>
+        </node>
+        <node id="fastqc">
+            <data key="color">&quot;0.27 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;88,306&quot;</data>
+            <data key="width">0.75</data>
+        </node>
+        <node id="runMultiqc">
+            <data key="color">&quot;0.38 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;90,162&quot;</data>
+            <data key="width">0.94444</data>
+        </node>
+        <node id="zip_fastq">
+            <data key="color">&quot;0.34 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;88,882&quot;</data>
+            <data key="width">0.84722</data>
+        </node>
+        <node id="align">
+            <data key="color">&quot;0.46 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;225,810&quot;</data>
+            <data key="width">0.75</data>
+        </node>
+        <node id="runStats">
+            <data key="color">&quot;0.36 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;184,666&quot;</data>
+            <data key="width">0.79167</data>
+        </node>
+        <node id="trim_polyA">
+            <data key="color">&quot;0.14 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;35,954&quot;</data>
+            <data key="width">0.97222</data>
+        </node>
+        <node id="split_fastq">
+            <data key="color">&quot;0.43 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;51,1026&quot;</data>
+            <data key="width">0.94444</data>
+        </node>
+        <node id="barplot">
+            <data key="color">&quot;0.62 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;224,594&quot;</data>
+            <data key="width">0.75</data>
+        </node>
+        <node id="count">
+            <data key="color">&quot;0.32 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;260,738&quot;</data>
+            <data key="width">0.75</data>
+        </node>
+        <node id="deFilter">
+            <data key="color">&quot;0.09 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;532,666&quot;</data>
+            <data key="width">0.75</data>
+        </node>
+        <node id="index_bam">
+            <data key="color">&quot;0.21 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;162,522&quot;</data>
+            <data key="width">0.98611</data>
+        </node>
+        <node id="index_ref">
+            <data key="color">&quot;0.60 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;168,882&quot;</data>
+            <data key="width">0.86111</data>
+        </node>
+        <node id="polyAstrip">
+            <data key="color">&quot;0.12 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;168,954&quot;</data>
+            <data key="width">0.91667</data>
+        </node>
+        <node id="add_ercc_and_chrm">
+            <data key="color">&quot;0.07 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;164,1026&quot;</data>
+            <data key="width">1.5694</data>
+        </node>
+        <node id="unzip_refMrna">
+            <data key="color">&quot;0.26 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;113,1098&quot;</data>
+            <data key="width">1.1944</data>
+        </node>
+        <node id="download_refMrna">
+            <data key="color">&quot;0.53 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;103,1170&quot;</data>
+            <data key="width">1.4861</data>
+        </node>
+        <node id="unzip_chrM">
+            <data key="color">&quot;0.65 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;215,1098&quot;</data>
+            <data key="width">0.98611</data>
+        </node>
+        <node id="download_chrM">
+            <data key="color">&quot;0.31 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;221,1170&quot;</data>
+            <data key="width">1.2778</data>
+        </node>
+        <node id="sym2ref">
+            <data key="color">&quot;0.50 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;284,882&quot;</data>
+            <data key="width">0.79167</data>
+        </node>
+        <node id="unzip_refGenes">
+            <data key="color">&quot;0.39 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;290,954&quot;</data>
+            <data key="width">1.2778</data>
+        </node>
+        <node id="download_refGene">
+            <data key="color">&quot;0.10 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;293,1026&quot;</data>
+            <data key="width">1.5</data>
+        </node>
+        <node id="renameMainReport">
+            <data key="color">&quot;0.15 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;440,90&quot;</data>
+            <data key="width">1.5139</data>
+        </node>
+        <node id="copyTemplateFolder">
+            <data key="color">&quot;0.44 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;573,234&quot;</data>
+            <data key="width">1.5972</data>
+        </node>
+        <node id="deQualityControls">
+            <data key="color">&quot;0.19 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;679,450&quot;</data>
+            <data key="width">1.4444</data>
+        </node>
+        <node id="deGenerateSampleTable">
+            <data key="color">&quot;0.41 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;532,594&quot;</data>
+            <data key="width">1.8889</data>
+        </node>
+        <node id="deNormalization">
+            <data key="color">&quot;0.63 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;602,522&quot;</data>
+            <data key="width">1.3611</data>
+        </node>
+        <node id="deClusterHeatmap">
+            <data key="color">&quot;0.58 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;443,450&quot;</data>
+            <data key="width">1.5</data>
+        </node>
+        <node id="deAnalysis">
+            <data key="color">&quot;0.05 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;525,378&quot;</data>
+            <data key="width">0.97222</data>
+        </node>
+        <node id="deUPM">
+            <data key="color">&quot;0.03 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;652,162&quot;</data>
+            <data key="width">0.75</data>
+        </node>
+        <node id="deAnnot">
+            <data key="color">&quot;0.00 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;406,306&quot;</data>
+            <data key="width">0.79167</data>
+        </node>
+        <node id="extractDEGforStringDB">
+            <data key="color">&quot;0.17 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;525,306&quot;</data>
+            <data key="width">1.7778</data>
+        </node>
+        <node id="downloadAnnotRef">
+            <data key="color">&quot;0.56 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;406,378&quot;</data>
+            <data key="width">1.5</data>
+        </node>
+        <node id="stringDBEnrichment">
+            <data key="color">&quot;0.22 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;440,234&quot;</data>
+            <data key="width">1.5833</data>
+        </node>
+        <node id="copySamplesheet">
+            <data key="color">&quot;0.55 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;315,90&quot;</data>
+            <data key="width">1.4444</data>
+        </node>
+        <node id="copyConfig">
+            <data key="color">&quot;0.24 0.6 0.85&quot;</data>
+            <data key="height">0.5</data>
+            <data key="pos">&quot;587,90&quot;</data>
+            <data key="width">0.98611</data>
+        </node>
+        <edge source="multiqc" target="all">
+            <data key="pos">&quot;e,247.65,28.069 142.14,215.87 143.24,184.27 149.63,116.01 183,72 196.91,53.655 219.15,40.595 238.27,32.029&quot;</data>
+        </edge>
+        <edge source="multiqc" target="buildReportPart">
+            <data key="pos">&quot;e,394.42,173.71 169.24,226.6 217.86,215.18 320.49,191.07 384.49,176.04&quot;</data>
+        </edge>
+        <edge source="buildReportPart" target="renameMainReport">
+            <data key="pos">&quot;e,440,108.1 440,143.7 440,135.98 440,126.71 440,118.11&quot;</data>
+        </edge>
+        <edge source="fastqc" target="multiqc">
+            <data key="pos">&quot;e,128.81,252.1 101.35,287.7 107.76,279.39 115.56,269.28 122.61,260.14&quot;</data>
+        </edge>
+        <edge source="fastqc" target="runMultiqc">
+            <data key="pos">&quot;e,89.758,180.19 88.241,287.87 88.582,263.67 89.208,219.21 89.614,190.39&quot;</data>
+        </edge>
+        <edge source="runMultiqc" target="all">
+            <data key="pos">&quot;e,247.77,24.477 96.202,144 104.21,124.22 119.91,91.759 143,72 170.32,48.621 209.27,34.691 237.78,27.024&quot;</data>
+        </edge>
+        <edge source="zip_fastq" target="fastqc">
+            <data key="pos">&quot;e,88,324.05 88,863.95 88,837.29 88,784.11 88,739 88,739 88,739 88,449 88,409 88,362.65 88,334.08&quot;</data>
+        </edge>
+        <edge source="zip_fastq" target="align">
+            <data key="pos">&quot;e,197.61,825 118.75,865.29 139.45,854.71 166.86,840.71 188.65,829.57&quot;</data>
+        </edge>
+        <edge source="zip_fastq" target="runStats">
+            <data key="pos">&quot;e,176.27,684.23 95.694,863.85 112.41,826.6 152.12,738.07 172.09,693.54&quot;</data>
+        </edge>
+        <edge source="align" target="count">
+            <data key="pos">&quot;e,251.45,756.1 233.65,791.7 237.64,783.73 242.45,774.1 246.87,765.26&quot;</data>
+        </edge>
+        <edge source="align" target="index_bam">
+            <data key="pos">&quot;e,156.1,540.31 209.7,791.95 190.45,769.23 158.42,726.91 146,684 132.75,638.23 144.09,582.42 153.24,549.98&quot;</data>
+        </edge>
+        <edge source="runStats" target="barplot">
+            <data key="pos">&quot;e,214.23,612.1 193.89,647.7 198.49,639.64 204.06,629.89 209.15,620.98&quot;</data>
+        </edge>
+        <edge source="trim_polyA" target="zip_fastq">
+            <data key="pos">&quot;e,75.05,900.1 48.101,935.7 54.391,927.39 62.047,917.28 68.965,908.14&quot;</data>
+        </edge>
+        <edge source="split_fastq" target="zip_fastq">
+            <data key="pos">&quot;e,88.198,900.11 62.394,1007.6 68.366,997.59 75.208,984.55 79,972 85.092,951.84 87.255,928.06 87.942,910.16&quot;</data>
+        </edge>
+        <edge source="split_fastq" target="trim_polyA">
+            <data key="pos">&quot;e,38.91,972.1 47.045,1007.7 45.282,999.98 43.163,990.71 41.197,982.11&quot;</data>
+        </edge>
+        <edge source="barplot" target="all">
+            <data key="pos">&quot;e,266.91,36.051 226.17,575.98 229.38,549.37 235,496.25 235,451 235,451 235,451 235,161 235,119.48 251.04,73.612 262.8,45.545&quot;</data>
+        </edge>
+        <edge source="count" target="barplot">
+            <data key="pos">&quot;e,228.36,612.19 255.66,719.87 249.5,695.56 238.15,650.82 230.85,622.01&quot;</data>
+        </edge>
+        <edge source="count" target="buildReportPart">
+            <data key="pos">&quot;e,394.72,180.18 263.84,719.61 269.4,692.94 279,640.27 279,595 279,595 279,595 279,305 279,246.82 338.86,206.8 385.58,184.42&quot;</data>
+        </edge>
+        <edge source="count" target="deFilter">
+            <data key="pos">&quot;e,504.63,674.04 287.07,730.03 336.03,717.43 439.33,690.85 494.84,676.56&quot;</data>
+        </edge>
+        <edge source="count" target="runStats">
+            <data key="pos">&quot;e,202.57,684.1 241.21,719.7 231.83,711.05 220.32,700.45 210.09,691.03&quot;</data>
+        </edge>
+        <edge source="deFilter" target="deGenerateSampleTable">
+            <data key="pos">&quot;e,532,612.1 532,647.7 532,639.98 532,630.71 532,622.11&quot;</data>
+        </edge>
+        <edge source="deFilter" target="deNormalization">
+            <data key="pos">&quot;e,608.54,540.16 559.36,654.23 577.02,645.68 598.58,631.82 609,612 618.99,592.99 616.12,568.48 611.38,550&quot;</data>
+        </edge>
+        <edge source="deFilter" target="deClusterHeatmap">
+            <data key="pos">&quot;e,439.69,468.38 504.73,653.79 487.34,645.1 466.07,631.28 455,612 431.07,570.33 433.81,512.26 438.23,478.45&quot;</data>
+        </edge>
+        <edge source="deFilter" target="deUPM">
+            <data key="pos">&quot;e,679.15,178.65 559.18,661.87 622.2,652.95 773,621.34 773,523 773,523 773,523 773,305 773,252 723.56,208.74 687.89,184.42&quot;</data>
+        </edge>
+        <edge source="index_bam" target="all">
+            <data key="pos">&quot;e,252.48,36.224 169.08,503.85 179.31,477.49 197,425.21 197,379 197,379 197,379 197,161 197,120.03 200.32,107.37 221,72 227.2,61.387 \
+236.09,51.451 244.87,43.115&quot;</data>
+        </edge>
+        <edge source="index_ref" target="align">
+            <data key="pos">&quot;e,211.07,828.1 182.09,863.7 188.92,855.3 197.26,845.07 204.76,835.86&quot;</data>
+        </edge>
+        <edge source="polyAstrip" target="align">
+            <data key="pos">&quot;e,224.05,828.09 184.31,935.68 192.64,925.91 202.2,913.07 208,900 216.71,880.38 220.96,856.39 223.04,838.26&quot;</data>
+        </edge>
+        <edge source="polyAstrip" target="index_ref">
+            <data key="pos">&quot;e,168,900.1 168,935.7 168,927.98 168,918.71 168,910.11&quot;</data>
+        </edge>
+        <edge source="add_ercc_and_chrm" target="polyAstrip">
+            <data key="pos">&quot;e,167.02,972.1 164.99,1007.7 165.43,999.98 165.96,990.71 166.45,982.11&quot;</data>
+        </edge>
+        <edge source="unzip_refMrna" target="add_ercc_and_chrm">
+            <data key="pos">&quot;e,151.54,1044.1 125.61,1079.7 131.6,1071.5 138.88,1061.5 145.48,1052.4&quot;</data>
+        </edge>
+        <edge source="download_refMrna" target="unzip_refMrna">
+            <data key="pos">&quot;e,110.56,1116.1 105.47,1151.7 106.57,1144 107.9,1134.7 109.13,1126.1&quot;</data>
+        </edge>
+        <edge source="unzip_chrM" target="add_ercc_and_chrm">
+            <data key="pos">&quot;e,176.46,1044.1 202.39,1079.7 196.4,1071.5 189.12,1061.5 182.52,1052.4&quot;</data>
+        </edge>
+        <edge source="download_chrM" target="unzip_chrM">
+            <data key="pos">&quot;e,216.47,1116.1 219.52,1151.7 218.86,1144 218.06,1134.7 217.32,1126.1&quot;</data>
+        </edge>
+        <edge source="sym2ref" target="count">
+            <data key="pos">&quot;e,262.91,756.19 281.11,863.87 277.01,839.67 269.5,795.21 264.63,766.39&quot;</data>
+        </edge>
+        <edge source="sym2ref" target="align">
+            <data key="pos">&quot;e,239.42,828.1 269.42,863.7 262.34,855.3 253.72,845.07 245.95,835.86&quot;</data>
+        </edge>
+        <edge source="unzip_refGenes" target="sym2ref">
+            <data key="pos">&quot;e,285.47,900.1 288.52,935.7 287.86,927.98 287.06,918.71 286.32,910.11&quot;</data>
+        </edge>
+        <edge source="download_refGene" target="unzip_refGenes">
+            <data key="pos">&quot;e,290.73,972.1 292.26,1007.7 291.93,999.98 291.53,990.71 291.16,982.11&quot;</data>
+        </edge>
+        <edge source="renameMainReport" target="all">
+            <data key="pos">&quot;e,302.05,30.478 399.64,71.876 372.73,60.463 337.66,45.583 311.58,34.517&quot;</data>
+        </edge>
+        <edge source="copyTemplateFolder" target="buildReportPart">
+            <data key="pos">&quot;e,472.66,180.19 540.46,215.88 522.75,206.55 500.65,194.92 481.68,184.94&quot;</data>
+        </edge>
+        <edge source="deQualityControls" target="buildReportPart">
+            <data key="pos">&quot;e,485.56,166.65 685.11,432 699.02,390 727.98,280.1 676,216 653.67,188.46 558.13,174.2 495.67,167.67&quot;</data>
+        </edge>
+        <edge source="deGenerateSampleTable" target="deQualityControls">
+            <data key="pos">&quot;e,679.83,468.09 600.19,578.3 622.17,570.37 644.76,558.3 660,540 674.26,522.87 678.58,497.59 679.57,478.34&quot;</data>
+        </edge>
+        <edge source="deGenerateSampleTable" target="deNormalization">
+            <data key="pos">&quot;e,584.9,540.1 549.3,575.7 557.86,567.14 568.34,556.66 577.7,547.3&quot;</data>
+        </edge>
+        <edge source="deGenerateSampleTable" target="deClusterHeatmap">
+            <data key="pos">&quot;e,453.77,468.19 521.26,575.87 505.83,551.24 477.24,505.64 459.22,476.88&quot;</data>
+        </edge>
+        <edge source="deGenerateSampleTable" target="deAnalysis">
+            <data key="pos">&quot;e,525.56,396.23 531.44,575.85 530.23,538.83 527.36,451.18 525.9,406.39&quot;</data>
+        </edge>
+        <edge source="deNormalization" target="deQualityControls">
+            <data key="pos">&quot;e,660.19,468.1 621.03,503.7 630.54,495.05 642.21,484.45 652.57,475.03&quot;</data>
+        </edge>
+        <edge source="deNormalization" target="deClusterHeatmap">
+            <data key="pos">&quot;e,481.77,468.07 563.1,503.88 541.37,494.31 514.1,482.3 491.04,472.15&quot;</data>
+        </edge>
+        <edge source="deNormalization" target="deAnalysis">
+            <data key="pos">&quot;e,534.32,396.19 592.71,503.87 579.42,479.35 554.84,434.03 539.24,405.26&quot;</data>
+        </edge>
+        <edge source="deClusterHeatmap" target="buildReportPart">
+            <data key="pos">&quot;e,405.83,180.05 388.93,433.06 371.13,424.96 353.28,413.09 343,396 319.99,357.76 308.3,310.89 367,216 374.49,203.89 385.87,193.69 \
+397.43,185.58&quot;</data>
+        </edge>
+        <edge source="deClusterHeatmap" target="deAnalysis">
+            <data key="pos">&quot;e,504.96,396.1 463.27,431.7 473.5,422.97 486.06,412.24 497.18,402.75&quot;</data>
+        </edge>
+        <edge source="deAnalysis" target="buildReportPart">
+            <data key="pos">&quot;e,485.62,167.6 557.7,359.8 609.07,330.57 698.74,269.16 657,216 637.29,190.89 553.2,176.16 495.68,168.84&quot;</data>
+        </edge>
+        <edge source="deAnalysis" target="deAnnot">
+            <data key="pos">&quot;e,434.81,323.95 495.89,359.88 480.21,350.66 460.69,339.17 443.85,329.26&quot;</data>
+        </edge>
+        <edge source="deAnalysis" target="extractDEGforStringDB">
+            <data key="pos">&quot;e,525,324.1 525,359.7 525,351.98 525,342.71 525,334.11&quot;</data>
+        </edge>
+        <edge source="deUPM" target="all">
+            <data key="pos">&quot;e,302.31,20.793 624.82,150.42 602.01,140.93 569.07,125.8 543,108 523.52,94.7 524.85,83.027 504,72 441.79,39.101 359.47,26.475 312.37,\
+21.738&quot;</data>
+        </edge>
+        <edge source="deAnnot" target="buildReportPart">
+            <data key="pos">&quot;e,407.95,180.12 391.82,287.85 378.57,269.62 362.43,240.13 374,216 379.67,204.18 389.39,194.17 399.66,186.14&quot;</data>
+        </edge>
+        <edge source="extractDEGforStringDB" target="buildReportPart">
+            <data key="pos">&quot;e,485.78,168.67 589.07,290.09 608.81,282.16 628.38,270.14 640,252 648.63,238.53 649.76,228.68 640,216 622.46,193.2 548.57,178.18 \
+495.71,170.14&quot;</data>
+        </edge>
+        <edge source="extractDEGforStringDB" target="stringDBEnrichment">
+            <data key="pos">&quot;e,460.77,252.1 503.99,287.7 493.28,278.88 480.11,268.03 468.5,258.47&quot;</data>
+        </edge>
+        <edge source="downloadAnnotRef" target="deAnnot">
+            <data key="pos">&quot;e,406,324.1 406,359.7 406,351.98 406,342.71 406,334.11&quot;</data>
+        </edge>
+        <edge source="stringDBEnrichment" target="buildReportPart">
+            <data key="pos">&quot;e,440,180.1 440,215.7 440,207.98 440,198.71 440,190.11&quot;</data>
+        </edge>
+        <edge source="copySamplesheet" target="all">
+            <data key="pos">&quot;e,284.77,36.104 305.11,71.697 300.51,63.644 294.94,53.894 289.85,44.982&quot;</data>
+        </edge>
+        <edge source="copyConfig" target="all">
+            <data key="pos">&quot;e,302.04,23.293 551.39,76.273 546.58,74.737 541.69,73.266 537,72 457.78,50.614 363,33.486 311.95,24.937&quot;</data>
+        </edge>
+    </graph>
+</graphml>
